@@ -1,0 +1,8 @@
+name: Print Version
+description: Print the action name and the tag it was used at, e.g. print-version/v1
+branding:
+  icon: tag
+  color: blue
+runs:
+  using: node24
+  main: index.js
